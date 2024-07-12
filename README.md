@@ -69,9 +69,9 @@ The `new_chara.py` file is used to create a new character card.
 <summary>Dependencies</summary>
 
 **Dependencies**:
-- [https://github.com/oobabooga/text-generation-webui](Oobabooga text generation webUI) needs to be running locally using it's API feature on port 5000 (default): http://127.0.0.1:5000/
+- [Oobabooga](https://github.com/oobabooga/text-generation-webui "Common text generation webUI") needs to be running locally using it's API feature on port 5000 (default): http://127.0.0.1:5000/
 	- **Model:** *Any*
-- [https://github.com/AUTOMATIC1111/stable-diffusion-webui](Automatic1111 stable diffusion webUI) needs to be running locally using it's API feature on port 7861 (not default since port 7860 is taken by Oobabooga): http://127.0.0.1:7861/
+- [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui "Common stable diffusion webUI") needs to be running locally using it's API feature on port 7861 (not default since port 7860 is taken by Oobabooga): http://127.0.0.1:7861/
 	- **Model:** *Any*
 	- **Embeddings:** bad_prompt_version2-neg FastNegativeV2 realisticvision-negative-embedding
 	- **Face Restoration Model:** *Any*
