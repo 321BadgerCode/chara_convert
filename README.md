@@ -24,7 +24,7 @@ mv ./tmp/* <oobagooba character folder>
 rm -rf ./tmp/
 ```
 
-## Config.json
+## config.json
 
 The `config.json` file is used to specify the parameters for the Character Converter.
 
@@ -57,6 +57,24 @@ Some examples of possible values for the `img_arg` key are:
 | -all= $filename.png | Remove all metadata from the input image file. |
 | -TagsFromFile $filename.png -Chara:all -all:all $filename.yaml | Replace JSON data in `Chara` metadata & replace it with YAML metadata. |
 | -TagsFromFile $filename.png "-all:all>all:all" $filename_new.png | Transfer all metadata from the original image to the new image. |
+
+</details>
+
+## new_chara.py
+
+The `new_chara.py` file is used to create a new character card.
+
+<details>
+
+<summary>Dependencies</summary>
+
+**Dependencies**:
+- [https://github.com/oobabooga/text-generation-webui](Oobabooga text generation webUI) needs to be running locally using it's API feature on port 5000 (default): http://127.0.0.1:5000/
+	- **Model:** *Any*
+- [https://github.com/AUTOMATIC1111/stable-diffusion-webui](Automatic1111 stable diffusion webUI) needs to be running locally using it's API feature on port 7861 (not default since port 7860 is taken by Oobabooga): http://127.0.0.1:7861/
+	- **Model:** *Any*
+	- **Embeddings:** bad_prompt_version2-neg FastNegativeV2 realisticvision-negative-embedding
+	- **Face Restoration Model:** *Any*
 
 </details>
 
